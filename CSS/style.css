@@ -111,7 +111,7 @@ nav{
 }
 
 .especialties-container ul li {
-   flex: 1 1 200px;
+    flex: 1 1 300px;
     list-style: none;
     text-align: center;
     padding: 20px;
@@ -126,10 +126,129 @@ nav{
 }
 
 /*===============================================preços========================================*/
+.pricing-container {
+    padding-bottom: 5em;
+    text-align: center;
+}
 
+.pricing-container h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
 
+.pricing-container h1 {
+    font-size: 20px;
+}
 
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.plan {
+    flex: 1 1 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 275px;
+}
 
+.plan ul {
+    padding: 0;
+}
 
+.plan li {
+    list-style: none;
+    background-color: #e8e9ea;
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+}
+
+.plan .price  {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #ccc;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #202b34;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.plan .plan-btn {
+    background-color: #2cc76a;
+    font-size: 24px;
+    color: #fff;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.plan .recomended {
+    background-color:crimson; 
+}
+
+/*=====================Buscar Dominio ==================*/ 
+
+.searchdomain-container {
+    background-color: #34454e;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.searchdomain-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 42px;
+
+}
+
+.searchdomain-container p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.searchdomain-container input {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchdomain-container input[type=text] {
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.searchdomain-container input[type=submit] {
+    background-color: #2cc76a;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 24px;
+}
 
